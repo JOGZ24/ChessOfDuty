@@ -1,0 +1,49 @@
+Kamikaze:
+    radius: 2
+    desc: sacrifier l'une de vos pièces pour infliger des dégats à toutes les unités dans la zone
+    damages: 20
+    cost: 80%
+Shield:
+    radius: 0
+    desc: placer un bouclier sur l'une de vos pièces, lui donnant 20 pv supplémentaire(ne peut pas être utilisé plusieurs fois sur le même pion)
+Sniper:
+    radius: 0
+    desc: tirer sur une pièce ennemie 
+    damage: 20
+    cost: 40%
+Nuke:
+    radius: 1
+    desc: largez une bombe sur le plateau qui touchera toutes les puèces dans le rayon de l'explosion
+    damages: 20
+    cost: 60%
+napalm:
+    radius: 1/2 colonne 
+    desc: a la manières des américans , bruler vos ennemis ,les laissant incapable de bouger à cause de la douleur.
+    damages: 20
+    cost: 100%
+téléportation: 
+    radius: 3
+    desc: téléporter votre pièce sur une case libre proche( 1 fois par partie)
+    cost: 80%
+landmine:
+    radius: 0
+    desc: posez une mine que seul l'ennemie peut déclencher
+    damage: 20
+    cost: 40%
+conversion:
+    radius: 1
+    desc: capturer un pion ennemie ayant moins de la moité de sa vie max( si le pion a plus de la moité de sa vie ,le sort est bloqué et ne vous rend pas votre mana)
+    cost: 100%
+seisme:
+    radius : 8
+    desc: un séisme s'abat sur le plateau, infligeant des dégats a toutes les pièces présentes
+    damages: 10
+    cost: 30
+gel:
+    radius: 1
+    desc: geler une pièce ennemie pendant 1 tour
+    cost: 40%
+Mur:
+    radius: 3 de long
+    desc: créer un mur qui empêche tout les pièces de passer( le cavalier ne peut pas passer au dessus)
+    cost: 60%
